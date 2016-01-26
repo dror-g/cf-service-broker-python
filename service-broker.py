@@ -9,7 +9,8 @@ X_BROKER_API_VERSION = 2.3
 X_BROKER_API_VERSION_NAME = 'X-Broker-Api-Version'
 
 # UPDATE THIS FOR YOUR ECHO SERVICE DEPLOYMENT
-service_base = "localhost"  # echo-service.stackato.danielwatrous.com
+#service_base = "localhost"  # echo-service.stackato.danielwatrous.com
+service_base = "localhost:8090"  # echo-service.stackato.danielwatrous.com
 
 # service endpoint templates
 service_instance = "http://"+service_base+"/echo/{{instance_id}}"
